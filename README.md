@@ -1,6 +1,6 @@
 # Lab-03-Word-Guess-Game-System.IO
 
-## Educational Exercises in C# ASP.NET MVC Core
+## Educational Exercise in C# ASP.NET MVC Core
 Word Guess Game Excercise
 
 ## Covered Concepts 
