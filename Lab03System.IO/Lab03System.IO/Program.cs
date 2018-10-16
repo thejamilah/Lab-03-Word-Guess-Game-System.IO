@@ -16,13 +16,13 @@ namespace Lab03System.IO
             UpdateFile(path);
             DeleteLinesFromFile(path);
 
-
         }
 
-        //create path to external file 
-        //using try catch to prevent memory leaks to close out connections put in resourse
-        //use StreamWriter to write to a file
-        
+        /// <summary>
+        /// Create path to external file, use try catch to prevent memory leaks 
+        /// to close out connections put in resource and using StreamWriter to write to fie
+        /// </summary>
+        /// <param name="path">passing path location</param>
         static void CreateFile(string path)
         {
             
