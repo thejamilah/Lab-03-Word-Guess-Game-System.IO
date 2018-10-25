@@ -112,10 +112,16 @@ namespace Lab03System.IO
             }
         }
 
-        //Random word generator reference Cprogramming.com; Random.next method MSDOCS this was tough to understand but I just had to trust the DOCS and trial and lots of errors
+        //Random word generator reference Cprogramming.com; Stack Overflow and youtube Random.next method MSDOCS, Dream in Code; Help from previous cohorts
         public static void PlayGame()
         {
-            string[] 
+            //had to give path; could not use path from "global" path 
+            string path = "../../../guesswords.txt";
+            string[] randomWords = File.ReadAllLines(path);
+            Random randwordgen = new Random();
+            int value = randwordgen.Next(randomWords.Length);
+            string 
+
         }
 
 
