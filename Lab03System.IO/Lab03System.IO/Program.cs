@@ -28,7 +28,7 @@ namespace Lab03System.IO
         /// Create fie path as a dependency and not in the 
         /// </summary>
         /// <param name="path"></param>
-        static void CreateFile(string path)
+        public static void CreateFile(string path)
         {
             //Defensive programming
 
@@ -55,7 +55,7 @@ namespace Lab03System.IO
             }
         }
 
-        static void ReadFile(string path)
+        public static void ReadFile(string path)
         {
             try
             {
@@ -107,15 +107,17 @@ namespace Lab03System.IO
             else
             {
                 Console.Clear();
-                Console.WriteLine("Please enter either 1, 2, or 2");
+                Console.WriteLine("Please enter either 1, 2, or 3");
                 Menu();
             }
         }
 
+        //Random word generator reference Cprogramming.com; Random.next method MSDOCS this was tough to understand but I just had to trust the DOCS and trial and lots of errors
         public static void PlayGame()
         {
-
+            string[] 
         }
+
 
         public static void AdminMenu()
         {
