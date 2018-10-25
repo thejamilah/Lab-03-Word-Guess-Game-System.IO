@@ -120,10 +120,9 @@ namespace Lab03System.IO
             string[] randomWords = File.ReadAllLines(path);
             Random randwordgen = new Random();
             int value = randwordgen.Next(randomWords.Length);
-            string 
-
+            string randoWords = randomWords[value];
+            
         }
-
 
         public static void AdminMenu()
         {
