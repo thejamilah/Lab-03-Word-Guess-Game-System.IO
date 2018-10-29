@@ -1,0 +1,6 @@
+bus
+mall
+salmon
+cookies
+about
+me
